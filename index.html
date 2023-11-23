@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>countdown clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="countdown">
+        <div id="title">
+            <span id="days">00</span>
+            <span id="hours">00</span>
+            <span id="minutes">00</span>
+            <span id="seconds">00</span>
+        </div>
+        <div id="title">
+            <p>days</p>
+            <p>hours</p>
+            <p>mins</p>
+            <p>sec</p>
+        </div>
+    </div>
+    <div class="check-time">
+        <button type="button" onclick="getElementById('time').innerHTML = Date()">time</button>
+        <button onclick="window.print()" class="print">print</button>
+        <h1 id="time"></h1>
+    </div>
+   <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+#countdown #title {
+  display: flex;
+  justify-content: space-evenly;
+}
+#countdown #title span {
+  background-color: darkgray;
+  color: aliceblue;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.check-time .print {
+  position: absolute;
+  right: 1rem;
+}/*# sourceMappingURL=style.css.map */
